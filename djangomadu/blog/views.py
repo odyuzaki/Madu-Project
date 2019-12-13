@@ -4,8 +4,8 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'judul' : 'Madu Lokal',
-        'subjudul': 'Blog',
+        'judul' : 'Blog',
+        'subjudul': 'Blog Madu Lokal',
         'nav'   : [
             ['/','Home'],
             ['/blog/cerita', 'Cerita'],
