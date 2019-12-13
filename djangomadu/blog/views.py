@@ -6,10 +6,9 @@ def index(request):
     context = {
         'judul' : 'Blog',
         'subjudul': 'Blog Madu Lokal',
-        'nav'   : [
-            ['/','Home'],
-            ['/blog/cerita', 'Cerita'],
-            ['/blog/news','News'],
-        ]
+        'banner': 'about/img/about.jpg',
+  #      'nav'   : [
+   #         ['/','Home'],
+    ###  ]
     }
-    return render(request,'blog/index.html',context)
+    return render(request,'index.html',context)
