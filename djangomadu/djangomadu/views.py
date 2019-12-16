@@ -2,11 +2,8 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'judul' : 'Madu Lokal',
-        'subjudul' : 'Selamat datang',
-        'banner': 'img/home.jpg',
-       # 'nav' : [
-       #     ['/','Home'],
-        #    ['/blog','Blog']]
+        'title' : 'Madu Lokal',
+        'heading' : 'Selamat datang',
+        'subheading': 'di madu lokal',
     }
     return render(request,'index.html',context)

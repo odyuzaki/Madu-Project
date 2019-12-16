@@ -1,22 +1,6 @@
-#banner {
-    width:100%
-}
-h1 {
-    color : #555;
-    font-family : arial;
-}
-
-nav ul {
-    background-color: #555;
-    list-style-type: none;
-    overflow:hidden;
-}
-nav li {
-    float: left;
-}
-nav a {
-    color: #fff;
-    font-family: arial;
-    p  adding: 10px 10px;
-    text-decoration: none;
+.jumbotron{
+        background-image: url("/static/img/mainHeader.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 500px :;
 }
